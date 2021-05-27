@@ -1,0 +1,134 @@
+body{
+    background-image: url(../img/Sin\ título-1.png);
+}
+h1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+h1::first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: serif; 
+   }
+
+h2{
+    text-align: center;
+}
+
+h2::first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-family: serif;
+   }
+
+
+h3::first-letter {
+    text-transform: uppercase;
+    font-size: 2em; 
+    font-family: serif;
+   }
+
+p{
+    text-align: center;
+}   
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-bottom: 1%;
+}
+
+nav{
+    text-align: center;
+    background-color: rgb(235, 83, 202);
+    color: white;
+    border-radius: 5px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+footer nav{
+    background-color: rgb(235, 83, 202);
+    position: top;
+}
+
+footer{
+    background-color: rgb(12, 11, 12);
+    text-align: center;
+    color: white;
+    padding: 1%;
+    padding-top: 1%;
+    font-size: 60%;
+    margin-top: 10px;
+}
+
+#mapa{
+    text-align: center;
+}
+
+#informacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#informacion p{
+    background-color: rgb(171, 46, 144);
+}
+
+#informacion article{
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+}
+
+#show,#hide,#show2,#hide2,#show3,#hide3{
+    display: none;
+}
+
+div#content,div#content2,div#content3 {
+	display:none;
+  padding:10px;
+  background-color:#e781c9;
+  width:90%;
+  cursor:pointer;
+}
+
+input#show:checked ~ div#content{
+    display: block;
+}
+
+input#hide:checked ~ div#content{
+    display: none;
+}
+
+input#show2:checked ~ div#content2{
+    display: block;
+}
+
+input#hide2:checked ~ div#content2{
+    display: none;
+}
+
+input#show3:checked ~ div#content3{
+    display: block;
+}
+
+input#hide3:checked ~ div#content3{
+    display: none;
+}
+
+#galeria{
+    text-align: center;
+}
+
+#formulario{
+    text-align: center;
+    background-color: rgba(206, 160, 187, 0.496);
+}
+
+aside{
+    background-color: rgba(187, 12, 187, 0.591);
+}
+
