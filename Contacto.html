@@ -9,6 +9,10 @@
 <body>
     <header>
         <h1>Mariel Nails</h1>
+        <nav class="registro">
+            <button class="botonRegistro"> Ingresar  </button>
+            <button class="botonRegistro">Registrarse</button>
+        </nav>
         <nav>
             <a href="index.html">Home</a>
             <a href="Informacion.html">Informacion</a>
@@ -23,25 +27,15 @@
     <section id="formulario">
         <form action="#" method="get"></form>
         <label for="nombre">Nombre:</label>
-        <br>
-        <input type="text" id="nombre" name="nombre">
-        <br><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese Nombre">
         <label for="apellido">Apellido:</label>
-        <br>
-        <input type="text" id="apellido" name="apellido">
-        <br><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese Apellido">
         <label for="telefono">Telefono:</label>
-        <br>
         <input type="tel" name="telefono" placeholder="Ingrese su telefono aqui...">
-        <br><br>
         <label for="mail">Mail:</label>
-        <br>
-        <input type="email" name="mail">
-        <br><br>
+        <input type="email" name="mail" placeholder="Ingrese Mail">
         <label for="comentarios">Comentarios:</label>
-        <br>
-        <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-        <br><br>
+        <textarea name="comentarios" id="textarea" cols="100" rows="10"></textarea>
         <input type="submit" value="Enviar">
     </section>
 </body>
